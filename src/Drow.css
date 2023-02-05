@@ -1,0 +1,11 @@
+.Drow{
+    /* height: 400px; */
+    /* width: 200px; */
+    /* background-color: rgb(176, 252, 186); */
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 1600px;
+}
