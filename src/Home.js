@@ -14,7 +14,7 @@ function Home() {
           src="https://m.media-amazon.com/images/I/61gPOiG6YiL._SX3000_.jpg"
           alt=""
         />
-        <div className="home_row">
+         <div className="home_row">
           <Product
             title="OnePlus 80 cm (32 inches) Y Series HD Ready LED "
             price="420000"
@@ -23,6 +23,7 @@ function Home() {
           />
 
           <Product
+          id="12121212"
             title="Acer 80 cm (32 inches) I Series HD Ready Android Smart LED "
             price="28000"
             rating={4}
@@ -42,6 +43,37 @@ function Home() {
           image = ""
           /> */}
         </div>
+         <div className="home_row">
+          <Product
+            title='Noise ColorFit Pro 4 Advanced Bluetooth Calling Smart Watch with 1.72" TruView Display'
+            price="2999"
+            rating={4}
+            image="https://m.media-amazon.com/images/I/61u2dhY-JBL._AC_UL320_.jpg"
+          />
+
+          <Product
+            title="boAt Wave Call Smart Watch, Smart Talk with Advanced Dedicated Bluetooth "
+            price="5000"
+            rating={3}
+            image="https://m.media-amazon.com/images/I/614AipEWSIL._AC_UL320_.jpg"
+          />
+
+          <Product
+            l
+            title='boAt Wave Lite Smartwatch with 1.69" HD Display, Sleek Metal Body, HR & SpO2'
+            price="6000"
+            rating={4}
+            image="https://m.media-amazon.com/images/I/61akt30bJsL._AC_UL320_.jpg"
+          />
+
+          <Product
+            title="Noise Pulse Go Buzz Bluetooth Calling Smart Watch"
+            price="19000"
+            rating={1}
+            image="https://m.media-amazon.com/images/I/612uv057m8L._AC_UL320_.jpg"
+          />
+        </div>  
+       
         <div className="home_row">
           <Product
             title="ASIAN
@@ -83,7 +115,12 @@ function Home() {
           />
         </div>
         <div className="home_row">
-          {/* <Product
+          <Drow 
+          link = "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Cat_Intgration/CEPC/Dongles_routers_1500x300.jpg"
+          />
+        </div>
+        <div className="home_row">
+          <Product
             title="ASUS Vivobook 14, Intel Core i7-1165G7 11th Gen"
             price="56900"
             rating={4}
@@ -94,7 +131,7 @@ function Home() {
             price="149900"
             rating={3}
             image="https://m.media-amazon.com/images/I/71YKQeB6onL._AC_UY218_.jpg"
-          /> */}
+          />
           <Product
             title='Lenovo V15 AMD Ryzen 3 5300U 15.6" (39.62cm) '
             price="₹32,990"
@@ -115,42 +152,9 @@ function Home() {
           />
         </div>
 
-        <div className="home_row">
-          <Product
-            title='Noise ColorFit Pro 4 Advanced Bluetooth Calling Smart Watch with 1.72" TruView Display'
-            price="2999"
-            rating={4}
-            image="https://m.media-amazon.com/images/I/61u2dhY-JBL._AC_UL320_.jpg"
-          />
+       
 
-          <Product
-            title="boAt Wave Call Smart Watch, Smart Talk with Advanced Dedicated Bluetooth "
-            price="5000"
-            rating={3}
-            image="https://m.media-amazon.com/images/I/614AipEWSIL._AC_UL320_.jpg"
-          />
-
-          <Product
-            l
-            title='boAt Wave Lite Smartwatch with 1.69" HD Display, Sleek Metal Body, HR & SpO2'
-            price="6000"
-            rating={4}
-            image="https://m.media-amazon.com/images/I/61akt30bJsL._AC_UL320_.jpg"
-          />
-
-          <Product
-            title="Noise Pulse Go Buzz Bluetooth Calling Smart Watch"
-            price="19000"
-            rating={1}
-            image="https://m.media-amazon.com/images/I/612uv057m8L._AC_UL320_.jpg"
-          />
-        </div>
-
-        <div className="home_row">
-          <Drow 
-          link = "https://images-eu.ssl-images-amazon.com/images/G/31/img22/Cat_Intgration/CEPC/Dongles_routers_1500x300.jpg"
-          />
-        </div>
+       
 
         {/* <div className="home_row">
           <Footer/>

@@ -3,15 +3,19 @@ import "./Header.css";
 import SearchIcon from "@mui/icons-material/Search";
 // import React, { useState } from "react";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import { useStateValue } from "./StateProvider";
+
 
 function Header() {
-  // const [cart, setCart] = useState(0);
+  const [{cart}, dispatch] = useStateValue();
   return (
     <div className="header">
-      <img
-        className="header_logo"
-        src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
-      />
+      <a href="/">
+        <img
+          className="header_logo"
+          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+        />
+      </a>
 
       <div className="header_search">
         {/* <button onClick={setCart(cart + 1)}>ADD CARTTT</button> */}
@@ -35,13 +39,12 @@ function Header() {
           <span className="header_option_lineTwo">Prime</span>
         </div>
 
-        <div className="header_optionCart">
-          <ShoppingCartIcon />
-          <span className="header_option_lineTwo header_cart_count">
-            {/* 0 */}
-            {/* {cart} */}
-          </span>
-        </div>
+        <a href="/checkout">
+          <div className="header_optionCart">
+            <ShoppingCartIcon />
+            <span className="header_option_lineTwo header_cart_count">{cart?.length}</span>
+          </div>
+        </a>
       </div>
     </div>
   );
