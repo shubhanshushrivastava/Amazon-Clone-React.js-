@@ -32,6 +32,8 @@ The app will be running at [http://localhost:3000](http://localhost:3000).
 
 - HTML/CSS: Markup and styling for the application.
 
+- Material-UI (Mui): A popular React UI framework that provides pre-built components and styling for faster and easier development.
+
 - Firebase: Used for user authentication and storing the cart data.
 
 ## Contributing
