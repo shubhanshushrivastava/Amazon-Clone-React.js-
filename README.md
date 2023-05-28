@@ -7,7 +7,7 @@ This project is an Amazon clone built using React, with a fully functional home 
 To get started with the project, follow these steps:
 
 1. Clone the repository:
- git clone https://github.com/your-username/amazon-clone.git
+ git clone git@github.com:shubhanshushrivastava/Amazon-Clone-React.js-.git
 
 2. Install the dependencies:
   cd amazon-clone
